@@ -51,7 +51,6 @@ jobs:
 
         git add ./sub   #这是pre_check.py定义的输出路径
         git commit -m "🍀 爬取订阅源 $(date '+%Y-%m-%d %H:%M:%S')"
-        git pull
         
     - name: 推送更改
       uses:  ad-m/github-push-action@master
